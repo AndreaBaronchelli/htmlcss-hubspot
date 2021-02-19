@@ -174,7 +174,7 @@ a:hover {
     margin-right: 0;
 }
 
- /* JUMBOTRON */
+/* JUMBOTRON */
 .jumbotron {
     height: 600px;
     background-color: #fff2ee;
@@ -187,147 +187,202 @@ a:hover {
     height: 100%;
 }
 
- .jumbotron .text {
+.jumbotron .text {
     padding-top: 70px;
- }
+}
 
- .jumbotron .text p {
+.jumbotron .text p {
     margin: 30px 0 50px 0;
- }
+}
 
- .jumbotron .text .promo {
-     margin-top: 60px;
-     font-size: 12px;
- }
+.jumbotron .text .promo {
+    margin-top: 60px;
+    font-size: 12px;
+}
 
- .jumbotron::after {    
-     content: "";
-     display: block;
-     width: 100%;
-     height: 86px;
-     border-bottom: 3px solid;
-     border-top: 3px solid;
-     background: #afebe4;
- }
+.jumbotron::after {    
+    content: "";
+    display: block;
+    width: 100%;
+    height: 86px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    background: #afebe4;
+}
 
- /* MAIN */
- /* Main offer */
+/* MAIN */
+/* Main offer */
 main {
     background: #f4f9fd;
 }
 
- .main-offer {
-     margin-top: 86px;
-     text-align: center;
- }
+.main-offer {
+    margin-top: 86px;
+    text-align: center;
+}
 
- .main-offer img {
-     padding-top: 50px;
-     height: 250px;
- }
+.main-offer img {
+    padding-top: 50px;
+    height: 250px;
+}
 
- .main-offer p {
-     margin: 40px 0;
- }
+.main-offer p {
+    margin: 40px 0;
+}
 
- /* CRM */
- .crm {
-     height: 400px;
- }
+/* CRM */
+.crm {
+    height: 400px;
+}
 
- .crm .col-left {
-     text-align: center;
- }
+.crm .col-left {
+    text-align: center;
+}
 
- .crm .col-left img {
-     margin-top: 100px;
-     margin-bottom: 50px;
-     height: 100px;
- }
+.crm .col-left img {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100px;
+}
 
- .crm .text {
-     margin-top: 100px;
- }
+.crm .text {
+    margin-top: 100px;
+}
 
- .crm .text p {
-     margin-top: 40px;
-     margin-bottom: 20px;
-     width: 80%;
- }
+.crm .text p {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 80%;
+}
 
- .crm .text .features {
-     position: relative;
- }
+.crm .text .features {
+    position: relative;
+}
 
- .crm .text .features::after{
-     content: "";
-     display: inline-block;
-     height: 2px;
-     width: 70%;
-     margin-left: 20px;
-     background-color: #34475b;
-     position: absolute;
-     top: 50%;
-     transform: translateY(-50%);
- }
+.crm .text .features::after{
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 70%;
+    margin-left: 20px;
+    background-color: #34475b;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
- .crm .text li {
-     display: inline-block;
-     list-style: none;
-     margin-top: 30px;
-     margin-right: 20px;
- }
+.crm .text li {
+    display: inline-block;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 20px;
+}
 
- .crm .text li:last-child {
-     margin-right: 0;
- }
+.crm .text li:last-child {
+    margin-right: 0;
+}
 
- /* Hubs */
- .hubs {
-     height: 650px;
-     margin: 50px 0;
- }
+/* Hubs */
+.hubs {
+    height: 650px;
+    margin: 50px 0;
+}
 
- .hubs .container {
-     height: 100%;
- }
+.hubs .container {
+    height: 100%;
+}
 
- .hubs .col {
-     height: 100%;
-     width: 30%;
-     margin-right: 60px;
-     text-align: center;
- }
+.hubs .col {
+    height: 100%;
+    width: 30%;
+    margin-right: 60px;
+    text-align: center;
+}
 
- .hubs .col:last-child {
-     margin-right: 0;
- }
+.hubs .col:last-child {
+    margin-right: 0;
+}
 
- .hubs .col img {
-     margin-top: 20px;
-     margin-bottom: 20px;
-     height: 100px;
- }
+.hubs .col img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100px;
+}
 
- .hubs .col p {
+.hubs .col p {
     margin: 0 20px;
     margin-bottom: 30px;
     height: 200px;
     padding-top: 30px;
     border-bottom: 2px solid;
- }
+}
 
- .hubs .col ul {
-     margin-top: 30px;
-     margin-bottom: 70px;
-     padding-left: 20px;
- }
+.hubs .col ul {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+}
 
- .hubs .col li {
-     text-align: left;
-     list-style: none;
- }
+.hubs .col li {
+    text-align: left;
+    list-style: none;
+}
 
- .hubs .col li i {
+.hubs .col li i {
      margin-right: 10px;
- }
+}
+
+ /* Data */
+.data {
+    height: 700px;
+    padding-top: 70px;
+    background-image: linear-gradient(to left, #03baa8 , #06abb6);
+    text-align: center;
+    color: white;
+}
+
+.data p {
+    margin: 50px 0;
+}
+
+.data .row {
+    height: 170px;
+    width: 100%;
+}
+
+.data .row .cell {
+    height: 100%;
+    width: 25%;
+    border-right: 1px solid;
+}
+ 
+.data .row .cell:last-child {
+    border-right: none;
+}
+
+.data .first.row .cell {
+    border-bottom: 1px solid;
+}
+
+.data .row .cell img {
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.data .cell .numbers {
+    font-size: 40px;
+}
+
+.data .cell .numbers:after {
+    display: inline-block;
+    content: "+";
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.data .cell .description {
+    margin-top: 10px;
+    font-size: 12px;
+}
