@@ -141,12 +141,15 @@ a:hover {
 
  /* JUMBOTRON */
 .jumbotron {
-    height: 603px;
-    border-bottom: 3px solid;
+    height: 600px;
     background-color: #fff2ee;
     background-image: url(../img/jumbotron.png);
     background-position-x: 60%;
     background-repeat: no-repeat;
+}
+
+.jumbotron .container {
+    height: 100%;
 }
 
  .jumbotron .text {
@@ -160,4 +163,14 @@ a:hover {
  .jumbotron .text .promo {
      margin-top: 60px;
      font-size: 12px;
+ }
+
+ .jumbotron::after {    
+     content: "";
+     display: block;
+     width: 100%;
+     height: 86px;
+     border-bottom: 3px solid;
+     border-top: 3px solid;
+     background: #afebe4;
  }
