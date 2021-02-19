@@ -21,6 +21,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 p {
     line-height: 2;
 }
@@ -37,6 +41,11 @@ a:hover {
 /* UTILITIES */
 .container {
     width: 1200px;
+    margin: 0 auto;
+}
+
+.container-small {
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -173,4 +182,20 @@ a:hover {
      border-bottom: 3px solid;
      border-top: 3px solid;
      background: #afebe4;
+ }
+
+ /* MAIN */
+ /* Main offer */
+ .main-offer {
+     margin-top: 86px;
+     text-align: center;
+ }
+
+ .main-offer img {
+     padding-top: 50px;
+     height: 250px;
+ }
+
+ .main-offer p {
+     margin: 40px 0;
  }
