@@ -56,7 +56,7 @@ a:hover {
 .box {
     background: white;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .fixed {
@@ -116,6 +116,7 @@ a:hover {
 /* HEADER */
 /* Top Header */
 .top-header {
+    z-index: 1;
     width: 100%;
     height: 80px;
     border-bottom: 1px solid #34475b;
@@ -211,7 +212,7 @@ a:hover {
 
  /* MAIN */
  /* Main offer */
-.main {
+main {
     background: #f4f9fd;
 }
 
@@ -251,6 +252,7 @@ a:hover {
  .crm .text p {
      margin-top: 40px;
      margin-bottom: 20px;
+     width: 80%;
  }
 
  .crm .text .features {
@@ -278,4 +280,54 @@ a:hover {
 
  .crm .text li:last-child {
      margin-right: 0;
+ }
+
+ /* Hubs */
+ .hubs {
+     height: 650px;
+     margin: 50px 0;
+ }
+
+ .hubs .container {
+     height: 100%;
+ }
+
+ .hubs .col {
+     height: 100%;
+     width: 30%;
+     margin-right: 60px;
+     text-align: center;
+ }
+
+ .hubs .col:last-child {
+     margin-right: 0;
+ }
+
+ .hubs .col img {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     height: 100px;
+ }
+
+ .hubs .col p {
+    margin: 0 20px;
+    margin-bottom: 30px;
+    height: 200px;
+    padding-top: 30px;
+    border-bottom: 2px solid;
+ }
+
+ .hubs .col ul {
+     margin-top: 30px;
+     margin-bottom: 70px;
+     padding-left: 20px;
+ }
+
+ .hubs .col li {
+     text-align: left;
+     list-style: none;
+ }
+
+ .hubs .col li i {
+     margin-right: 10px;
  }
