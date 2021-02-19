@@ -17,6 +17,14 @@ h4 {
     font-weight: 700;
 }
 
+h1 {
+    font-size: 50px;
+}
+
+p {
+    line-height: 2;
+}
+
 a {
     text-decoration: none;
     color:#34475b
@@ -66,6 +74,10 @@ a:hover {
     background: none;
 }
 
+.btn-big {
+    padding: 20px 30px;
+}
+
 /* HEADER */
 
 /* Top Header */
@@ -109,6 +121,10 @@ a:hover {
     line-height: 80px;
 }
 
+.main-navigation img {
+    vertical-align: middle;
+}
+
 .main-navigation .col-right {
     text-align: right;
 }
@@ -122,3 +138,26 @@ a:hover {
 .main-navigation li:last-child {
     margin-right: 0;
 }
+
+ /* JUMBOTRON */
+.jumbotron {
+    height: 603px;
+    border-bottom: 3px solid;
+    background-color: #fff2ee;
+    background-image: url(../img/jumbotron.png);
+    background-position-x: 60%;
+    background-repeat: no-repeat;
+}
+
+ .jumbotron .text {
+    padding-top: 70px;
+ }
+
+ .jumbotron .text p {
+    margin: 30px 0 50px 0;
+ }
+
+ .jumbotron .text .promo {
+     margin-top: 60px;
+     font-size: 12px;
+ }
