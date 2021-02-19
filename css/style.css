@@ -25,6 +25,10 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    font-size: 24px;
+}
+
 p {
     line-height: 2;
 }
@@ -49,6 +53,12 @@ a:hover {
     margin: 0 auto;
 }
 
+.box {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
 .fixed {
     position: fixed;
 }
@@ -63,8 +73,24 @@ a:hover {
     float: left;
 }
 
+.w-70 {
+    width: 70%;
+}
+
 .w-50 {
     width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.orange {
+    color: #fe7859;
 }
 
 /* Buttons */
@@ -88,7 +114,6 @@ a:hover {
 }
 
 /* HEADER */
-
 /* Top Header */
 .top-header {
     width: 100%;
@@ -186,6 +211,10 @@ a:hover {
 
  /* MAIN */
  /* Main offer */
+.main {
+    background: #f4f9fd;
+}
+
  .main-offer {
      margin-top: 86px;
      text-align: center;
@@ -198,4 +227,55 @@ a:hover {
 
  .main-offer p {
      margin: 40px 0;
+ }
+
+ /* CRM */
+ .crm {
+     height: 400px;
+ }
+
+ .crm .col-left {
+     text-align: center;
+ }
+
+ .crm .col-left img {
+     margin-top: 100px;
+     margin-bottom: 50px;
+     height: 100px;
+ }
+
+ .crm .text {
+     margin-top: 100px;
+ }
+
+ .crm .text p {
+     margin-top: 40px;
+     margin-bottom: 20px;
+ }
+
+ .crm .text .features {
+     position: relative;
+ }
+
+ .crm .text .features::after{
+     content: "";
+     display: inline-block;
+     height: 2px;
+     width: 70%;
+     margin-left: 20px;
+     background-color: #34475b;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .crm .text li {
+     display: inline-block;
+     list-style: none;
+     margin-top: 30px;
+     margin-right: 20px;
+ }
+
+ .crm .text li:last-child {
+     margin-right: 0;
  }
