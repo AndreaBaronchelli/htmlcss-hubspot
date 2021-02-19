@@ -93,6 +93,15 @@ a:hover {
     color: #fe7859;
 }
 
+.numbers {
+    font-size: 40px;
+}
+
+.promo {
+    margin-top: 60px;
+    font-size: 12px;
+}
+
 /* Buttons */
 .btn {
     padding: 10px;
@@ -193,11 +202,6 @@ a:hover {
 
 .jumbotron .text p {
     margin: 30px 0 50px 0;
-}
-
-.jumbotron .text .promo {
-    margin-top: 60px;
-    font-size: 12px;
 }
 
 .jumbotron::after {    
@@ -370,10 +374,6 @@ main {
     margin-bottom: 10px;
 }
 
-.data .cell .numbers {
-    font-size: 40px;
-}
-
 .data .cell .numbers:after {
     display: inline-block;
     content: "+";
@@ -385,4 +385,64 @@ main {
 .data .cell .description {
     margin-top: 10px;
     font-size: 12px;
+}
+
+/* Partners */
+.partners {
+    margin: 60px 0;
+    height: 700px;
+}
+
+.partners .left-col {
+    width: 40%;
+}
+
+.partners .right-col {
+    position: relative;
+    width: 60%;
+    height: 620px;
+}
+
+.partners .numbers-container {
+    margin-bottom: 80px;
+    margin-left: 90px;
+    width: 220px;
+}
+
+.partners .numbers {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.partners .left-col p {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.partners .logo-row {
+    height: 50px;
+    line-height: 50px;
+}
+
+.partners .logo-row:first-child {
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.partners .right-col .logo-row img {
+    vertical-align: middle;
+    width: 150px;
+    margin-right: 20px;
+}
+
+.partners .right-col .logo-row img:last-child {
+    margin-right: 0;
+}
+
+.partners .right-col .main-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 380px;
 }
