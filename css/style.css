@@ -390,6 +390,7 @@ main {
 /* Partners */
 .partners {
     padding: 60px 0;
+    background: white;
 }
 
 .partners .left-col {
