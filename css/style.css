@@ -422,12 +422,11 @@ main {
 .partners .logo-row {
     height: 50px;
     line-height: 50px;
+    margin-bottom: 20px;
 }
 
-.partners .logo-row:first-child {
-    margin-bottom: 20px;
-    height: 50px;
-    line-height: 50px;
+.partners .logo-row:last-child {
+    margin-bottom: 0px;
 }
 
 .partners .right-col .logo-row img {
