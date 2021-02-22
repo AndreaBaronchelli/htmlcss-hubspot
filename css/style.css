@@ -201,7 +201,7 @@ a:hover {
 }
 
 .jumbotron .text p {
-    margin: 30px 0 50px 0;
+    margin: 30px 0 50px;
 }
 
 .jumbotron::after {
