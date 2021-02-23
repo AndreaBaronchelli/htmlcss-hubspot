@@ -102,6 +102,33 @@ a:hover {
     font-size: 12px;
 }
 
+/* Dropdown Menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    padding: 10px 10px;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 /* Buttons */
 .btn {
     padding: 10px;
@@ -171,6 +198,10 @@ a:hover {
 
 .main-navigation .col-right {
     text-align: right;
+}
+
+.main-navigation .dropdown-content a {
+    text-align: left;
 }
 
 .main-navigation li {
